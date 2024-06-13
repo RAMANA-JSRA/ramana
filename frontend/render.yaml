@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: frontend
+    env: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
+    rootDir: ./frontend
+    staticPublishPath: ./frontend/build
