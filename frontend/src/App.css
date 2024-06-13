@@ -1,0 +1,6 @@
+.main-content {
+  display: flex;
+  flex-wrap: wrap; /* Ensure items wrap to new row if there's not enough space */
+  justify-content: center; /* Center the content horizontally */
+  gap: 2rem; /* Adjust spacing between sections */
+}

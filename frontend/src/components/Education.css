@@ -1,0 +1,60 @@
+.section {
+  padding: 0;
+  text-align: center;
+  max-width: 10000px;
+}
+
+.section1 {
+  padding: 100px 0; /* Adjust padding as needed */
+}
+.container3 {
+  max-width: 10000px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #333;
+}
+
+.education-details {
+  background-color: #f8f9fa; /* Light gray background */
+  border-radius: 50px; /* Rounded corners */
+  padding: 2rem; /* Add some padding */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow */
+  text-align: left;
+}
+
+.education-item {
+  margin-bottom: 1.5rem;
+}
+
+.education-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.education-logo {
+  width: 50px; /* Adjust the size as needed */
+  height: auto;
+  margin-right: 1rem; /* Space between the logo and the text */
+}
+
+.education-header h3 {
+  font-size: 1.8rem;
+  color: #333;
+  margin: 0;
+}
+
+.education-item p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.education-item p b {
+  font-weight: bold;
+  color: #000;
+}

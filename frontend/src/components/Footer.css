@@ -1,0 +1,32 @@
+/* Footer.css */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0 0;
+}
+
+.social-links a {
+  color: #ff5733;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+  color: #fff; /* Change color on hover */
+}
+
+.footer-message {
+  font-size: 1rem;
+  margin-top: 1rem;
+}

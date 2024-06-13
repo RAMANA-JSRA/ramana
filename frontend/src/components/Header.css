@@ -1,0 +1,88 @@
+/* Header.css */
+
+/* Default styles */
+.custom-header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-left: 1rem;
+  font-size: large;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.portfolio-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.portfolio-link:hover {
+  text-decoration: underline;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  background-color: #ff5733;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #c70039;
+}
+
+/* Dark mode styles */
+.dark-mode .custom-header {
+  background-color: #222; /* Change to your preferred dark mode background color */
+}
+
+.dark-mode nav ul li a {
+  color: #fff;
+}
+
+.dark-mode .portfolio-link,
+.dark-mode .btn {
+  color: #fff;
+}
