@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/ramana/static/css/main.15a88610.css",
+    "main.js": "/ramana/static/js/main.a8547276.js",
+    "static/js/453.8ab44547.chunk.js": "/ramana/static/js/453.8ab44547.chunk.js",
+    "static/media/vit-logo.png": "/ramana/static/media/vit-logo.da0378bb7b23e39be24f.png",
+    "static/media/tag-logo.png": "/ramana/static/media/tag-logo.88154db940ccfbcabe2a.png",
+    "static/media/my-photo.jpg": "/ramana/static/media/my-photo.aca7600bd42058ef86e1.jpg",
+    "index.html": "/ramana/index.html",
+    "main.15a88610.css.map": "/ramana/static/css/main.15a88610.css.map",
+    "main.a8547276.js.map": "/ramana/static/js/main.a8547276.js.map",
+    "453.8ab44547.chunk.js.map": "/ramana/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15a88610.css",
+    "static/js/main.a8547276.js"
+  ]
+}
