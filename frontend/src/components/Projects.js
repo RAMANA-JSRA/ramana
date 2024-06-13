@@ -35,7 +35,7 @@ const Projects = () => {
             imageUrl:
               "https://drive.google.com/thumbnail?id=1lct7A54pe5yZF32WFlfzWcYMXbrY5PgA&sz=w1000",
             liveLink: "https://ramana-jsra.github.io/auction1/",
-            sourceCode: "https://github.com/RAMANA-JSRA/Bid-X",
+            sourceCode: "https://github.com/RAMANA-JSRA/Bid-X.",
           }}
         />
         <ProjectCard
@@ -66,8 +66,8 @@ const Projects = () => {
             ],
             imageUrl:
               "https://drive.google.com/thumbnail?id=1zKHfn8OpA4yVK9edoS7BJY_A78exuH4Y&sz=w1000",
-            liveLink: "https://example.com",
-            sourceCode: "https://github.com/yourusername/project-name",
+            liveLink: "https://RAMANA-JSRA.github.io/ramana/",
+            sourceCode: "https://github.com/RAMANA-JSRA/ramana/",
           }}
         />
       </div>
