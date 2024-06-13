@@ -5,6 +5,8 @@ import { TypeAnimation } from "react-type-animation";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Hero = () => {
+  const resumePdfUrl = "https://drive.google.com/uc?id=1U42z1NcwZ-f7mziCzx2bblDIcN1opOd4&export=download";
+
   return (
     <section id="hero">
       <div className="container">
@@ -58,7 +60,7 @@ const Hero = () => {
                   technologies and improve my skills.
                 </p>
                 <div className="resume-button-container">
-                  <a href="/resume.pdf" download className="btn">
+                  <a href={resumePdfUrl} download="Ramana_JS_Resume.pdf" className="btn">
                     <i className="fas fa-download"></i> My Resume
                   </a>
                 </div>
